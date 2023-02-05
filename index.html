@@ -47,6 +47,7 @@
         background: #fefefe;
         margin: 0;
         padding: 0;
+        backdrop-filter: url(#noiseFilter) opacity(40%);
     }
 
     .card {
@@ -73,6 +74,16 @@
         text-decoration-color: gainsboro;
     }
 </style>
+
+<svg style="display:none">
+    <filter id='noiseFilter'>
+        <feTurbulence
+            type='fractalNoise'
+            baseFrequency='6.29'
+            numOctaves='6'
+            stitchTiles='stitch'/>
+    </filter>
+</svg>
 
 <main class="card">
     <div>
