@@ -1,104 +1,116 @@
-<!-- For old IEs -->
-<link rel="shortcut icon" href="icons/favicon.ico" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roman Bardt</title>
 
-<!-- For new browsers - multisize ico  -->
-<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="icons/favicon.ico">
+    <!-- For old IEs -->
+    <link rel="shortcut icon" href="icons/favicon.ico" />
 
-<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
-<link rel="apple-touch-icon" sizes="152x152" href="icons/favicon-152-precomposed.png">
+    <!-- For new browsers - multisize ico  -->
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="icons/favicon.ico">
 
-<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
-<link rel="apple-touch-icon" sizes="144x144" href="icons/favicon-144-precomposed.png">
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon-152-precomposed.png">
 
-<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
-<link rel="apple-touch-icon" sizes="120x120" href="icons/favicon-120-precomposed.png">
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon-144-precomposed.png">
 
-<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
-<link rel="apple-touch-icon" sizes="114x114" href="icons/favicon-114-precomposed.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon-120-precomposed.png">
 
-<!-- For iPhone 6+ -->
-<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon-180-precomposed.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon-114-precomposed.png">
 
-<!-- For first- and second-generation iPad: -->
-<link rel="apple-touch-icon" sizes="72x72" href="icons/favicon-72-precomposed.png">
+    <!-- For iPhone 6+ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon-180-precomposed.png">
 
-<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-<link rel="apple-touch-icon" sizes="57x57" href="icons/favicon-57.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon-72-precomposed.png">
 
-<!-- For Old Chrome -->
-<link rel="icon" sizes="32x32" href="icons/favicon-32.png" >
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon-57.png">
 
-<!-- For IE10 Metro -->
-<meta name="msapplication-TileColor" content="#FFFFFF">
-<meta name="msapplication-TileImage" content="favicon-144.png">
-<meta name="theme-color" content="#ffffff">
+    <!-- For Old Chrome -->
+    <link rel="icon" sizes="32x32" href="icons/favicon-32.png" >
 
-<!-- Chrome for Android -->
-<link rel="manifest" href="manifest.json">
-<link rel="icon" sizes="192x192" href="icons/favicon-192.png">
+    <!-- For IE10 Metro -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon-144.png">
+    <meta name="theme-color" content="#ffffff">
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.bunny.net">
-<link href="https://fonts.bunny.net/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+    <!-- Chrome for Android -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="192x192" href="icons/favicon-192.png">
 
-<style>
-    body {
-        font-family: 'Antic Didone', serif;
-        background: #fefefe;
-        margin: 0;
-        padding: 0;
-        backdrop-filter: url(#noiseFilter) opacity(40%);
-    }
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css2?family=Antic+Didone&display=swap" rel="stylesheet">
 
-    .card {
-        box-sizing: border-box;
-        width: 100vw;
-        height: 100vh;
-        padding: 2em;
+    <style>
+        body {
+            font-family: 'Antic Didone', serif;
+            background: #fefefe;
+            margin: 0;
+            padding: 0;
+            backdrop-filter: url(#noiseFilter) opacity(40%);
+        }
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        .card {
+            box-sizing: border-box;
+            width: 100vw;
+            height: 100vh;
+            padding: 2em;
 
-        font-size: 8vmin;
-        text-align: center;
-    }
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
 
-    address {
-        text-align: left;
-    }
+            font-size: 8vmin;
+            text-align: center;
+        }
 
-    a {
-        font-size: 0.8em;
-        color: black;
-        text-decoration-color: gainsboro;
-    }
-</style>
+        address {
+            text-align: left;
+            font-size: 0.7em;
+            line-height: 1.2em;
+        }
 
-<svg style="display:none">
-    <filter id='noiseFilter'>
-        <feTurbulence
-            type='fractalNoise'
-            baseFrequency='6.29'
-            numOctaves='6'
-            stitchTiles='stitch'/>
-    </filter>
-</svg>
+        a {
+            font-size: 0.8em;
+            color: black;
+            text-decoration-color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+    <svg style="display:none">
+        <filter id='noiseFilter'>
+            <feTurbulence
+                type='fractalNoise'
+                baseFrequency='6.29'
+                numOctaves='6'
+                stitchTiles='stitch'/>
+        </filter>
+    </svg>
 
-<main class="card">
-    <div>
-        Roman Bardt makes meaningful interactive experiences
-    </div>
-
-    <address>
+    <main class="card">
         <div>
-            <a href="mailto:contact@bardt.me">contact@bardt.me</a>
+            Roman Bardt makes meaningful interactive experiences
         </div>
-        <div>
-            <a rel="me" href="https://mas.to/@bardt">Mastodon</a>
-        </div>
-        <div>
-            <a rel="author" href="https://github.com/bardt">GitHub</a>
-        </div>
-    </address>
-</main>
+
+        <address>
+            <div>
+                <a href="mailto:contact@bardt.me">contact@bardt.me</a>
+            </div>
+            <div>
+                <a rel="me" href="https://mas.to/@bardt">Mastodon</a>
+            </div>
+            <div>
+                <a rel="author" href="https://github.com/bardt">GitHub</a>
+            </div>
+        </address>
+    </main>
+</body>
+</html>
